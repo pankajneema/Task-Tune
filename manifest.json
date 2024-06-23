@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "TaskTune",
+    "version": "1.0",
+    "description": " A Pomodoro timer with daily reports and task management || Stay on track with tasks and custom alert messages",
+    "action": {
+      "default_popup": "public/popup.html"
+    },
+    "background": {
+      "service_worker": "src/background.js"
+    },
+    "permissions": [
+      "notifications",
+      "storage",
+      "alarms"
+    ],  
+    "icons": {
+      "16": "public/img/bell.png",
+      "48": "public/img/bell.png",
+      "128": "public/img/bell.png"
+    }
+  }
+  
